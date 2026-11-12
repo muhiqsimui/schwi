@@ -41,7 +41,7 @@ func Load() (*Config, error) {
 
 	// Default port
 	if cfg.Port == "" {
-		cfg.Port = "3000"
+		cfg.Port = "3005"
 	}
 
 	// Validate port

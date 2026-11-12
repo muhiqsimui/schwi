@@ -103,7 +103,7 @@ Add the following variables:
 ```env
 DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
 DISCORD_GUILD_ID=YOUR_DISCORD_SERVER_ID
-PORT=3000
+PORT=3005
 ```
 
 | Variable           | Description                           |
@@ -172,6 +172,12 @@ Build:
 
 ```bash
 go build -o schwi ./cmd/schwi
+```
+
+## Docker Deployment(Optional)
+
+```
+docker compose up -d --build
 ```
 
 ## Security

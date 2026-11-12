@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  schwi-bot:
+    build: .
+    container_name: schwi-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "3005:3005"
